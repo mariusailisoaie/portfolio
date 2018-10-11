@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Weather</title>
+</head>
+
+<body>
+  <div class="container">
+    <h2 id="city"></h2>
+    <h4 id="temperature"></h4>
+    <h4 id="description"></h4>
+    <img alt="Weather Icon">
+    <h4 id="humidity"></h4>
+    <h4 id="pressure"></h4>
+    <h4 id="visibility"></h4>
+    <h4 id="wind"></h4>
+    <hr>
+    <h4>Change Location</h4>
+    <label for="city">City</label>
+    <input type="text" name="city" id="change-city" placeholder="Example: Copenhagen">
+
+    <label for="country-code">Country code</label>
+    <input type="text" name="country-code" id="change-country-code" placeholder="Example: dk">
+    <button id="change-location-button">Change Location</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
