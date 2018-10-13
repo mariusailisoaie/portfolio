@@ -1,3 +1,11 @@
+html {
+  background-image: url(../img/clock-background.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
 .container {
   width: 80%;
   margin: auto;
