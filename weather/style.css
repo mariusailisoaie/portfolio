@@ -1,15 +1,64 @@
 html,
 body {
-    color: #555;
+    color: black;
     font-family: 'Lato', 'Arial', sans-serif;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 18px;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
 }
 
+html {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url(weather.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
 .container {
-  text-align: center;
   margin: auto;
   width: 70%;
+}
+
+.row {
+  text-align: center;
+  margin: auto;
+  width: 100%;
+}
+
+.weather-content *{
+  margin-bottom: 3%;
+}
+
+.description-icon { 
+  display: flex;
+  justify-content: center;
+}
+
+.description-icon div {
+  align-self: center;
+}
+
+.city-input, .country-code-input {
+  margin-bottom: 3%;
+}
+
+.city-input {
+  margin-top: 3%;
+}
+
+input {
+  text-align: center;
+}
+
+button {
+  background-color: rgb(8, 115, 151); /* Green */
+  border: none;
+  color: white;
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
