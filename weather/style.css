@@ -5,6 +5,7 @@ body {
     font-weight: 600;
     font-size: 23px;
     text-rendering: optimizeLegibility;
+    overflow-y: hidden;
     overflow-x: hidden;
 }
 
@@ -17,8 +18,8 @@ html {
 }
 
 .container {
-  margin: auto;
   width: 70%;
+  margin: auto;
 }
 
 .row {
@@ -29,15 +30,6 @@ html {
 
 .weather-content *{
   margin-bottom: 3%;
-}
-
-.description-icon { 
-  display: flex;
-  justify-content: center;
-}
-
-.description-icon div {
-  align-self: center;
 }
 
 .city-input, .country-code-input {
