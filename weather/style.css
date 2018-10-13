@@ -3,13 +3,13 @@ body {
     color: black;
     font-family: 'Lato', 'Arial', sans-serif;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 23px;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
 }
 
 html {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url(weather.jpeg);
+  background-image: url(weather.jpeg);
   background-size: cover;
   background-position: center;
   height: 100vh;
