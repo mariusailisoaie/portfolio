@@ -17,7 +17,7 @@ async function getWeatherData(oras, tara) {
   return responseData;
 }
 
-document.addEventListener('DOMContentLoaded', callWeatherData('Botosani', 'ro'));
+document.addEventListener('DOMContentLoaded', callWeatherData('Copenhagen', 'dk'));
 changeLocationButton.addEventListener('click', buttonClicked);
 
 function callWeatherData(oras, tara) {
