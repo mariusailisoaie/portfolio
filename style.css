@@ -8,7 +8,7 @@ html, body {
 }
 
 html {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./img/backgroundimg-min.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/backgroundimg-min.jpeg);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -37,9 +37,17 @@ html {
 }
 
 a {
-  color: white
+  color: white;
+  text-decoration: none;
+}
+
+#github-link {
+  position: absolute;
+  bottom: 0;
+  height: 10%;
+  margin-left: 45%;
 }
 
 a:hover, a:active {
-  color: rgb(199, 195, 195);
+  color: rgb(182, 181, 181);
 }
