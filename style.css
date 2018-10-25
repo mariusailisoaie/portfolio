@@ -29,7 +29,7 @@ html {
   justify-content: space-between;
 }
 
-.projects-container div {
+.projects-container-box {
   display: flex;
   width: 20%;
   margin-bottom: 10%;

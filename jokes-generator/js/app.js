@@ -1,5 +1,5 @@
 const getRandomDadJoke = async () => {
-  const response = await fetch('http://api.icndb.com/jokes/random');
+  const response = await fetch('https://api.icndb.com/jokes/random');
   const responseData = await response.json();
   return responseData;
 }
