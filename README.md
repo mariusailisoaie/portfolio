@@ -1,1 +1,1 @@
-# personal-projects
+# This repository contains the project on my portfolio
