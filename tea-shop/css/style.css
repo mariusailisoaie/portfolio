@@ -5,7 +5,7 @@
 }
 
 html {
-  color: rgb(220, 220, 220);
+  color: #555;
   font-family: 'Lato', 'Arial', sans-serif;
   font-weight: 300;
   font-size: 20px;
@@ -25,7 +25,7 @@ html {
 }
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/tea2.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url(../img/tea2.jpeg);
   /* background-image: url(../img/tea2.jpeg); */
   background-size: cover;
   background-repeat: no-repeat;
@@ -76,16 +76,39 @@ header {
   left: 12.3%;
 }
 
-/* MAIN HEADING */
+/* HEADINGS */
 
-h1 {
-  color: #fff;
-  font-size: 240%;
-  font-weight: 300;
+h1,
+h2 {
   text-transform: uppercase;
   letter-spacing: 1px;
+ 
+}
+
+h1 {
+  font-weight: 300;
+  color: #fff;
+  font-size: 240%;
   word-spacing: 4px;
   margin-bottom: 40px;
+}
+
+h2 {
+  font-weight: 300;
+  color: #555;
+  font-size: 180%;
+  word-spacing: 4px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+h2::after {
+  content: " ";
+  display: block;
+  width: 100px;
+  height: 2px;
+  background-color: #7e3200;
+  margin: 30px auto;
 }
 
 /* BUTTONS */
@@ -120,4 +143,61 @@ h1 {
 .btn-transparent:active {
   background-color: #5c2500;
   border: 2px solid #5c2500;
+}
+
+/* LOVE TEA SECTION ITEM */
+
+section {
+  padding: 80px 0;
+}
+
+.description {
+  line-height: 145%;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 110%;
+}
+
+.love-tea-section-item {
+  display: inline-block;
+  width: 20%;
+  vertical-align: text-top;
+}
+
+.love-tea-section-item-container {
+  text-align: justify;
+  margin-top: 50px;
+}
+
+.love-tea-section-item-container::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
+.love-tea-section-item p {
+  line-height: 125%;
+}
+
+/* H3 */
+
+.love-tea-section-item h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* ICONS */
+
+.love-tea-section-item img {
+  height: 50px;
+  width: 50px;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
 }
