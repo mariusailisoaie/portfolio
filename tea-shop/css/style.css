@@ -313,3 +313,7 @@ section {
 .location-container h3 {
   text-align: center;
 }
+
+.customer-icon, .tea-icon {
+  margin: 0px 7px 5px 0px;
+}
