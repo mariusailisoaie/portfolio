@@ -312,10 +312,18 @@ section {
 
 .location-container h3 {
   text-align: center;
+  margin-bottom: 10px;
 }
 
-.customer-icon, .tea-icon {
+.customer-icon, .tea-icon, .star-icon {
   margin: 0px 7px 5px 0px;
+  width: 22px;
+  height: 22px;
+}
+
+.customer-icon {
+  margin-right: 5px;
+  margin-left: 2px;
 }
 
 .location-container div {
