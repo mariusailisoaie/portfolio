@@ -317,3 +317,7 @@ section {
 .customer-icon, .tea-icon {
   margin: 0px 7px 5px 0px;
 }
+
+.location-container div {
+  text-align: left;
+}
