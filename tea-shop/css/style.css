@@ -370,6 +370,16 @@ cite {
   font-size: 90%;
 }
 
+blockquote::before {
+  content: "\0022";
+  font-size: 130%;
+}
+
+blockquote::after {
+  content: "\0022";
+  font-size: 130%;
+}
+
 cite img {
   width: 70px;
   border-radius: 50%;
