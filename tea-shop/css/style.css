@@ -386,3 +386,37 @@ cite img {
   vertical-align: middle;
   margin-right: 20px;
 }
+
+/* HEAR FROM CUSTOMERS SECTION */
+
+.form-container {
+  width: 70%;
+  margin: 0 auto;
+  /* border: 1px solid black; */
+}
+
+#name, #email, #heard-about-us, #message {
+  float: right;
+  width: 60%;
+  height: 30px;
+}
+
+#message {
+  height: 100px;
+}
+
+.form-container div {
+  margin-bottom: 30px;
+}
+
+.button-container {
+  clear: both;
+  text-align: center;
+}
+
+.submit-btn {
+  background-color: #7e3200;
+  margin-top: 40px;
+  width: 100%;
+  border-radius: 0;
+}
