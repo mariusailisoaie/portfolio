@@ -31,6 +31,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
+  background-attachment: fixed;
 }
 
 /* MAIN NAV */
@@ -329,4 +330,49 @@ section {
 
 .location-container div {
   text-align: left;
+}
+
+/* TESTIMONIALS SECTION */
+
+.testimonials-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/teaShopImg.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+.testimonials-section .row:nth-child(2) {
+  margin-bottom: 80px;
+}
+
+.testimonials-section h2 {
+  color: #fff; 
+}
+
+.customer-testimony-container {
+  float: left;
+  width: 30%;
+  margin-top: 30px;
+}
+
+.customer-testimony-container:not(:last-child) {
+  margin-right: 5%;
+}
+
+blockquote {
+  font-style: italic;
+  line-height: 155%;
+}
+
+cite {
+  margin-top: 30px;
+  display: block;
+  font-size: 90%;
+}
+
+cite img {
+  width: 70px;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 20px;
 }
