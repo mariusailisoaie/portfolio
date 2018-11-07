@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html, body {
   color: #555;
   font-family: 'Lato', 'Arial', sans-serif;
@@ -17,7 +21,7 @@ html {
 
 .container {
   text-align: center;
-  color: white;
+  color: #fff;
   margin: auto;
   width: 70%;
 }
@@ -36,8 +40,12 @@ html {
   flex-direction: column;
 }
 
+.projects-container-box label {
+  margin-bottom: 5px;
+}
+
 a {
-  color: white;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -50,4 +58,8 @@ a {
 
 a:hover, a:active {
   color: rgb(182, 181, 181);
+}
+
+.copentea {
+  border: 1px solid rgba(255, 255, 255, 0.9);
 }
