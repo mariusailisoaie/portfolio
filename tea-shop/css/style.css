@@ -25,7 +25,7 @@ html {
 }
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url(../img/tea2.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url(../img/tea2-min.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -341,7 +341,7 @@ section {
 /* TESTIMONIALS SECTION */
 
 .testimonials-section {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/teaShopImg.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/teaShopImg-min.jpeg);
   background-size: cover;
   background-attachment: fixed;
   color: #fff;
