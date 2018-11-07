@@ -10,13 +10,13 @@ html {
   font-weight: 300;
   font-size: 20px;
   text-rendering: optimizeLegibility;
+  overflow: scroll;
+  overflow-x: hidden;
 }
 
-.under-construction {
-  position: absolute;
-  top: 24%;
-  left: 50%;
-  transform: translate(-50%);
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
 }
 
 .row {
@@ -26,7 +26,6 @@ html {
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url(../img/tea2.jpeg);
-  /* background-image: url(../img/tea2.jpeg); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -73,8 +72,9 @@ header {
 .logo {
   height: 150px;
   width: 150px;
-  position: absolute;
-  left: 12.3%;
+  left: -18px;
+  top: -260px;
+  position: relative;
 }
 
 /* HEADINGS */
@@ -226,6 +226,12 @@ section {
   width: 25%;
 }
 
+.tea-types-list::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
 .tea-photo-container {
   width: 100%;
   overflow: hidden;
@@ -235,7 +241,7 @@ section {
 .tea-photo-container img {
   opacity: 0.7;
   width: 100%;
-  height: 315px;
+  height: auto;
   transform: scale(1.15);
   transition: transform 0.5s, opacity 0.5s;
 }
