@@ -89,6 +89,79 @@
   }
 }
 
-@media only screen and (max-width: 767px) {}
+@media only screen and (max-width: 767px) {
+  html {
+    font-size: 16px;
+  }
+  .main-nav {
+    display: none;
+  }
+  section {
+    padding: 20px 0;
+  }
+  .description {
+    width: 100%;
+  }
+  .love-tea-section-item {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .how-works-img-container {
+    float: none;
+    width: 100%;
+  }
+  .steps-container {
+    float: none;
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 0;
+  }
+  .steps-container div {
+    width: 45px;
+    height: 45px;
+    font-size: 140%;
+    padding-top: 6px;
+    margin-right: 10px;
+  }
+  .location-container {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .location-container div {
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .location-image {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+  }
+  .all-locations {
+    margin-top: 2px;
+  }
+  .form-container {
+    width: 100%;
+  }
+  #name, #email, #heard-about-us, #message {
+    float: right;
+    width: 60%;
+    height: 30px;
+  }
+  .form-element-container label {
+    display: inline-block;
+    width: 40%;
+  }
+  #message {
+    height: 80px;
+  }
+  .customer-testimony-container {
+    margin-top: 0;
+  }
+  .links li, .social-media-links li {
+    margin-right: 10px;
+  }
+}
 
 @media only screen and (max-width: 480px) {}
