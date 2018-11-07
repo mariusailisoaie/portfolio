@@ -1,0 +1,94 @@
+@media only screen and (max-width: 1350px) {
+  html {
+    overflow-x: hidden;
+  }
+  .header-container {
+    width: 100%;
+    padding-left: 8%;
+  }
+  .row {
+    padding: 0 8%;
+  }
+  .steps-container {
+    margin-top: 50px;
+  }
+  .how-works-img-container {
+    margin-top: 35px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 1023px) {
+  html {
+    font-size: 18px;
+  }
+  section {
+    padding: 40px 0;
+  }
+  .description {
+    width: 90%;
+  }
+  .steps-container {
+    margin-top: 0;
+  }
+  .love-tea-section-item img {
+    height: 30px;
+    width: 30px;
+  }
+  .love-tea-section-item h3 {
+    font-size: 100%;
+  }
+  .testimonials-section .row:nth-child(2) {
+    margin-bottom: 60px;
+  }
+  .customer-testimony-container {
+    margin-top: 0;
+  }
+  cite {
+    font-size: 80%;
+  }
+  #name, #email, #heard-about-us, #message {
+    float: right;
+    width: 40%;
+    height: 30px;
+  }
+  .all-locations {
+    margin-top: 20px;
+  }
+  .main-nav li {
+    margin-left: 20px;
+  }
+  .header-container {
+    width: 100%;
+    padding-left: 10%;
+  }
+  .how-works-img-container {
+    margin-top: 15px;
+  }
+  .steps-container p {
+    margin-bottom: 20px;
+  }
+  .customer-icon, .tea-icon, .star-icon {
+    margin: 0px 8px 3px 0px;
+    width: 17px;
+    height: 17px;
+  }
+  .customer-icon {
+    margin-right: 6px;
+    margin-left: 2px;
+  }
+  .location-container div {
+    margin-bottom: 8px;
+  }
+  .form-container {
+    width: 80%;
+  }
+  #message {
+    height: 60px;
+  }
+}
+
+@media only screen and (max-width: 767px) {}
+
+@media only screen and (max-width: 480px) {}
