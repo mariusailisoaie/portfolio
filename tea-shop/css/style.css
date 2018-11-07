@@ -420,3 +420,94 @@ cite img {
   width: 100%;
   border-radius: 0;
 }
+
+*:focus {
+  outline: none;
+}
+
+input[type=text],
+input[type=email],
+select option{
+  text-align: center;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #333;
+  padding: 40px;
+}
+
+.footer-elements-container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.links {
+  float: left;
+}
+
+.links li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.social-media-links {
+  float: right;
+}
+
+.social-media-links li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.links li:last-child,
+.social-media-links li:last-child {
+  margin-right: 0;
+}
+
+.links li a:link,
+.links li a:visited,
+.social-media-links li a:link,
+.social-media-links li a:visited {
+  text-decoration: none;
+  color: #888;
+  transition: color 0.2s;
+}
+
+.links li a:hover,
+.links li a:active {
+  color: #ddd;
+}
+
+.fa-facebook-f,
+.fa-twitter,
+.fa-google-plus-g,
+.fa-instagram {
+  font-size: 120%;
+  transition: color 0.2s;
+}
+
+.fa-facebook-f:hover {
+  color: #3b5998;
+}
+
+.fa-twitter:hover {
+  color: #1da1f2;
+}
+
+.fa-google-plus-g:hover {
+  color: #db4437;
+}
+
+.fa-instagram:hover {
+  color: #125688;
+}
+
+footer p {
+  color: #888;
+  text-align: center;
+  font-size: 90%;
+  margin-top: 20px;
+}
