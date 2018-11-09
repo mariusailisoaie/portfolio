@@ -2,7 +2,7 @@
   "name": "todo-app-react",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "https://addictedcoder.com/react-todo/build/",
+  "homepage" : "https://addictedcoder.com/todo-app-react/build/",
   "dependencies": {
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
