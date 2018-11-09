@@ -6,5 +6,5 @@
 # /todo-app-react/public
 # /todo-app-react/src
 
-/todo-app-react/*.json
+# /todo-app-react/*.json
 /todo-app-react/*.md
