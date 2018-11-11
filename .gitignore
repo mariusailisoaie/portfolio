@@ -3,8 +3,13 @@
 # dependencies
 /todo-app-react/node_modules
 /todo-app-react/*.gitignore
+/todo-app-react/*.md
+
+/car-showcase/node_modules
+/car-showcase/*.gitignore
+/car-showcase/*.md
+
+
 # /todo-app-react/public
 # /todo-app-react/src
-
 # /todo-app-react/*.json
-/todo-app-react/*.md
