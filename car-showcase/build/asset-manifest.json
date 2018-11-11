@@ -1,0 +1,13 @@
+{
+  "main.css": "/car-showcase/build/static/css/main.571c128e.chunk.css",
+  "main.js": "/car-showcase/build/static/js/main.d6cba60e.chunk.js",
+  "main.js.map": "/car-showcase/build/static/js/main.d6cba60e.chunk.js.map",
+  "static/js/1.0cdd6f18.chunk.js": "/car-showcase/build/static/js/1.0cdd6f18.chunk.js",
+  "static/js/1.0cdd6f18.chunk.js.map": "/car-showcase/build/static/js/1.0cdd6f18.chunk.js.map",
+  "runtime~main.js": "/car-showcase/build/static/js/runtime~main.48433d2d.js",
+  "runtime~main.js.map": "/car-showcase/build/static/js/runtime~main.48433d2d.js.map",
+  "static/css/main.571c128e.chunk.css.map": "/car-showcase/build/static/css/main.571c128e.chunk.css.map",
+  "index.html": "/car-showcase/build/index.html",
+  "precache-manifest.624264f123e1fc0acb8bc71af92e1870.js": "/car-showcase/build/precache-manifest.624264f123e1fc0acb8bc71af92e1870.js",
+  "service-worker.js": "/car-showcase/build/service-worker.js"
+}
