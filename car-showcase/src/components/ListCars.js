@@ -1,32 +1,42 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
 
 class ListCars extends Component {
   render() {
-
     const { cars } = this.props;
-    console.log(cars);
 
     const carList = this.props.cars ? (
       cars.map(car => {
         return (
-          <div className="car center" key={car.id}>
-            <h4>Brand: {car.brand}</h4>
-            <h5>Model: {car.model}</h5>
-            <h5>Price: {car.price}</h5>
-            <br/>
+          <div className="card" key={car.id}>
+            <Link to={'/' + car.id}>
+              <div className="card-content car center black-text">
+                <h4>Brand: {car.brand}</h4>
+                <h5>Model: {car.model}</h5>
+                <h5>Price: {car.price}</h5>
+                <h6>Click for more info</h6>
+              </div>
+            </Link>
           </div>
         )
       })
     ) : (
-        <div>No cars available at the moment.</div>
+        <div className="center">No cars available at the moment.</div>
       )
 
     return (
       <div className='car-list container'>
-        { carList }
+        {carList}
       </div>
     )
   }
 }
 
-export default ListCars;
+const mapStateToProps = state => {
+  return {
+    cars: state.cars
+  }
+}
+
+export default connect(mapStateToProps)(ListCars);
