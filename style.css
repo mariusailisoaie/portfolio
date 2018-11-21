@@ -59,7 +59,3 @@ a {
 a:hover, a:active {
   color: rgb(182, 181, 181);
 }
-
-.copentea {
-  border: 1px solid rgba(255, 255, 255, 0.9);
-}
