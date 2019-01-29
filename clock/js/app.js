@@ -5,9 +5,9 @@ const hourHand = document.querySelector('.hour');
 
 // Function which will update the time
 const updateTime = () => {
-	// const seconds = new Date().getSeconds();
-	// const secondsDegrees = ((seconds / 60) * 360) + 90;
-	// secondsHand.style.transform = `rotate(${secondsDegrees}deg)`;
+	const seconds = new Date().getSeconds();
+	const secondsDegrees = ((seconds / 60) * 360) + 90;
+	secondsHand.style.transform = `rotate(${secondsDegrees}deg)`;
 
 	const minutes = new Date().getMinutes();
 	const minutesDegrees = ((minutes / 60) * 360) + 90;
