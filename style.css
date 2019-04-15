@@ -56,6 +56,10 @@ a {
   margin-left: 45%;
 }
 
+.snake {
+  margin: 0 auto;
+}
+
 a:hover, a:active {
   color: rgb(182, 181, 181);
 }
